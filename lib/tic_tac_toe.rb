@@ -132,6 +132,15 @@ class TicTacToe
     end
   end
   
-  
+  def play
+    until over? || won? || draw?
+        turn 
+      end 
+        if won? == true
+          puts "#{winner} you won!"
+        else draw? 
+          puts "Nobody wins. It is a draw."
+        end 
+  end
 
 end
