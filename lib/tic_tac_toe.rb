@@ -100,7 +100,12 @@ class TicTacToe
   
   def full?
     full_board = []
-    @board.each_with_index
+    @board.each_with_index do |player, index|
+      if player == "X" || player == "O"
+        full_board << index
+      end
+    end
+    full_board.length == 9
   
   end
   
