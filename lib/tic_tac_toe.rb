@@ -137,7 +137,7 @@ class TicTacToe
         turn 
       end 
         if won? == true
-          puts "#{winner} you won!"
+          puts "Congratulations #{winner}!"
         else draw? 
           puts "Nobody wins. It is a draw."
         end 
