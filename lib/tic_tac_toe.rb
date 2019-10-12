@@ -123,7 +123,13 @@ class TicTacToe
   end
   
   def winner
-  
+    if won? 
+      win = won? 
+      index = winning_combo[0]
+      return @board[first_index]
+    else 
+      nil 
+    end
   end
 
 end
