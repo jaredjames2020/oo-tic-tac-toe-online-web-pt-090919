@@ -99,7 +99,8 @@ class TicTacToe
   end
   
   def full?
-    
+    full_board = []
+    if 
   
   end
   
