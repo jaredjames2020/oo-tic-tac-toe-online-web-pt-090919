@@ -106,7 +106,6 @@ class TicTacToe
       end
     end
     full_board.length == 9
-  
   end
   
 
