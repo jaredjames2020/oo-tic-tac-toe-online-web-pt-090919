@@ -136,7 +136,7 @@ class TicTacToe
     until over? || won? || draw?
         turn 
       end 
-        if won? == true
+        if won?
           puts "Congratulations #{winner}!"
         else draw? 
           puts "Nobody wins. It is a draw."
