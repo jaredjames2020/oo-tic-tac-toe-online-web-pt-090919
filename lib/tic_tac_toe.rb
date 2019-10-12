@@ -91,7 +91,7 @@ class TicTacToe
       o_win = o_moves & win
       if x_win == win
        return x_win
-      elsif o_win == combo 
+      elsif o_win == win
         return o_win
       end 
     end 
