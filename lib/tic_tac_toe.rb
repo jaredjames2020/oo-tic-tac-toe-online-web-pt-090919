@@ -100,7 +100,7 @@ class TicTacToe
   
   def full?
     full_board = []
-    if 
+    @board.each_with_index
   
   end
   
