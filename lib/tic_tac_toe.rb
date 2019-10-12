@@ -108,5 +108,14 @@ class TicTacToe
     full_board.length == 9
   end
   
+  def draw?
+    if full? == true && won? == false
+      return true
+    elsif won? == true
+      return false  
+    else full? == false && won? == false
+      return false
+    end
+  end
 
 end
