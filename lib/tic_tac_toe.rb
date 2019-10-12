@@ -117,5 +117,10 @@ class TicTacToe
     #   return false
     #end
   end
+  
+  def over?
+    won? && full?
+  
+  end
 
 end
