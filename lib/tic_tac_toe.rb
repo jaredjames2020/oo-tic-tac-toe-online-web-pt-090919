@@ -96,6 +96,10 @@ class TicTacToe
       end 
     end 
     false 
+  end
+  
+  def full?
+    
   
   end
   
