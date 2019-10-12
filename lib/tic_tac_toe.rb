@@ -75,7 +75,27 @@ class TicTacToe
   end
   
   def won?
+    x_moves = []
+    o_moves = []
     
+    @board.each_with_index do |player, index|
+      if player == "X"
+        x_moves << index 
+      elsif player == "O"
+        o_moves << index 
+      end 
+    end 
+    
+    WIN_COMBINATIONS.each do |win| 
+      x_win = x_moves & win
+      o_win = o_moves & win
+      if x_win == win
+       return x_win
+      elsif o_win == combo 
+        return o_win
+      end 
+    end 
+    false 
   
   end
   
