@@ -75,8 +75,7 @@ class TicTacToe
   end
   
   def won?
-    if @board
-  
+    
   
   end
   
